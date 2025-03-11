@@ -20,7 +20,7 @@ body {
 
 /* header */
 
-.head-img {
+/* .head-img {
     display: flex;
     justify-content: space-around;
     padding: 10px 0px;
@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 .head-img :nth-child(2){
     background-color: yellow;
