@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'lato';
+}
+
+body {
+    background-color: #000a33;
+    overflow-x: hidden;
+}
+
+/* header */
+
+.head-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background-color: #640D5F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-img :nth-child(2){
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/* header end here  */
+
+/* body start */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('hero.jpg');
+    font-size: 15px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main-img {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: yellow;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.global-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.scroll-container {
+    width: 100vw;
+    padding: 10px;
+    position: relative;
+    background-color: yellow;
+
+}
+
+.scroll-text {
+    white-space: nowrap;
+    display: block;
+    font-size: 15px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.scroll-text {
+    top: 10px;
+    animation: scroll 8s linear infinite;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+.card {
+    background-color: yellow;
+}
+
+.card-1 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    width: 50%;
+}
+
+.card h2 {
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-2 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    width: 50%;
+}
+
+.buttom-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: yellow;
+    position: sticky;
+    bottom: 0;
+    margin: 0px;
+}
+
+/* Home page CSS end here  */
+
+/* Invest Page CSS Start */
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px 10px;
+    background-color: yellow;
+    text-align: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 7px;
+    background-color:#640D5F;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.products a {
+    text-decoration: none;
+    padding: 7px;
+    background-color: #640D5F;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products img {
+    border-radius: 10px;
+}
+
+.products h2 {
+    font-size: 20px;
+}
+
+.products p {
+    font-size: 15px;
+    padding-top: 6px;
+
+}
+
+.buy-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* Invest Page CSS End here */
+
+/* Dashboard CSS start Here */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-info img {
+    background-color:yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-weight: bold;
+}
+
+.first {
+    background-color:yellow;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.detail a{
+    text-decoration: none;
+    color: black;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: yellow;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin: 10px ;
+}
+
+/* dashboard CSS End Here */
+
+/* Share Page CSS Start  */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #000a33;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.invite-text {
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+.stat-box {
+    background: yellow;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    width: 38%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.invite-section {
+    margin: 15px 0;
+    text-align: center;
+}
+.invite-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.invite-link {
+    background: #001133;
+    border: 1px solid yellow;
+    color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.share-button {
+    background: yellow;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.commission-box {
+background: #000a33;
+border-radius: 10px;
+font-size: 14px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px ;
+}
+
+.commission-content {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.commission-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.commission-text {
+text-align: left;
+color: white;
+}
+
+.commission-text table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.commission-text th, .commission-text td {
+padding: 5px 10px;
+text-align: left;
+}
+
+.commission-text th {
+color: white; /* Highlighted headings */
+font-size: 14px;
+}
+
+.commission-text td {
+font-size: 12px;
+}
+.reward-box {
+    background: yellow;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.para{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.table{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table th{
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 17px;
+} 
+
