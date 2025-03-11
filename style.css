@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'lato';
+    box-sizing: border-box;
 }
 
 body {
@@ -85,11 +86,11 @@ main-img {
 }
 
 .scroll-container {
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     position: relative;
     background-color: yellow;
-
+    overflow-x: hidden;
 }
 
 .scroll-text {
